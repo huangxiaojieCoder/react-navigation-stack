@@ -21,8 +21,8 @@ const APPBAR_HEIGHT = Platform.OS === 'ios' ? 44 : 120;
 const STATUSBAR_HEIGHT = Platform.OS === 'ios' ? 20 : 0;
 
 // These can be adjusted by using headerTitleContainerStyle on navigationOptions
-const TITLE_OFFSET_CENTER_ALIGN = Platform.OS === 'ios' ? 70 : 120;
-const TITLE_OFFSET_LEFT_ALIGN = Platform.OS === 'ios' ? 20 : 120;
+const TITLE_OFFSET_CENTER_ALIGN = Platform.OS === 'ios' ? 70 : 70;
+const TITLE_OFFSET_LEFT_ALIGN = Platform.OS === 'ios' ? 20 : 70;
 
 const getTitleOffsets = (
   layoutPreset,

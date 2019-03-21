@@ -15,10 +15,10 @@ module.exports = {
   get Assets() {
     return Platform.select({
       ios: [
-        require('./views/assets/back-icon.png'),
+        require('./views/assets/nav-back-icon.png'),
         require('./views/assets/back-icon-mask.png'),
       ],
-      default: [require('./views/assets/back-icon.png')],
+      default: [require('./views/assets/nav-back-icon.png')],
     });
   },
   get Header() {
