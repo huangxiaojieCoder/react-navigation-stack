@@ -140,6 +140,7 @@ const styles = StyleSheet.create({
   androidButtonWrapper: {
     margin: 13,
     backgroundColor: 'transparent',
+    width:100,
   },
   container: {
     alignItems: 'center',
@@ -163,8 +164,8 @@ const styles = StyleSheet.create({
           transform: [{ scaleX: I18nManager.isRTL ? -1 : 1 }],
         }
       : {
-          height: 24,
-          width: 24,
+          height: 34,
+          width: 34,
           margin: 3,
           resizeMode: 'contain',
           backgroundColor: 'transparent',
