@@ -17,12 +17,12 @@ import HeaderBackButton from './HeaderBackButton';
 import ModularHeaderBackButton from './ModularHeaderBackButton';
 import HeaderStyleInterpolator from './HeaderStyleInterpolator';
 
-const APPBAR_HEIGHT = Platform.OS === 'ios' ? 44 : 56;
+const APPBAR_HEIGHT = Platform.OS === 'ios' ? 44 : 120;
 const STATUSBAR_HEIGHT = Platform.OS === 'ios' ? 20 : 0;
 
 // These can be adjusted by using headerTitleContainerStyle on navigationOptions
-const TITLE_OFFSET_CENTER_ALIGN = Platform.OS === 'ios' ? 70 : 56;
-const TITLE_OFFSET_LEFT_ALIGN = Platform.OS === 'ios' ? 20 : 56;
+const TITLE_OFFSET_CENTER_ALIGN = Platform.OS === 'ios' ? 70 : 120;
+const TITLE_OFFSET_LEFT_ALIGN = Platform.OS === 'ios' ? 20 : 120;
 
 const getTitleOffsets = (
   layoutPreset,
@@ -66,7 +66,7 @@ const getAppBarHeight = isLandscape => {
     ? isLandscape && !Platform.isPad
       ? 32
       : 44
-    : 56;
+    : 120;
 };
 
 class Header extends React.PureComponent {

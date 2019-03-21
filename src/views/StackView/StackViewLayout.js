@@ -79,7 +79,7 @@ const getDefaultHeaderHeight = isLandscape => {
       return 64;
     }
   } else {
-    return 56;
+    return 120;
   }
 };
 
